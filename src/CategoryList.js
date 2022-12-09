@@ -8,7 +8,6 @@ export default class CategoryList extends Component {
 
   componentDidMount() {
     this.getCategories();
-    console.log("burak")
   }
 
   getCategories = () => {
